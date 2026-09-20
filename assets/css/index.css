@@ -9,4 +9,8 @@ body {
   background: var(--bg-color);
 }
 
-
+span,
+label {
+  color: var(--text-color);
+  font-weight: 500;
+}
