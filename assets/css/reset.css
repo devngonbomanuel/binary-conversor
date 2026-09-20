@@ -1,0 +1,62 @@
+/* --Contet: Margens, paddings e bordas de todos os elementos--*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* --Contet: Alinhamento de bloco e tamanho de fonte nativo-- */
+html,
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* --Contet: Marcadores de listas-- */
+ul,
+ol {
+  list-style: none;
+}
+
+/* --Contet: Elementos de texto estruturais-- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+span {
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* --Contet: Mídias responsivas por padrão-- */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* --Contet: Elementos de formulário-- */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
