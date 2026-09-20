@@ -1,0 +1,12 @@
+/*--CONTENT: Variáveis (cores, fontes, tamanhos...)--*/
+:root {
+  --bg-color: #1a4862;
+  --text-color: #ccc;
+}
+
+/*-- CONTENT: Reset básico*/
+body {
+  background: var(--bg-color);
+}
+
+
