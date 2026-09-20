@@ -1,4 +1,4 @@
-/* --Contet: Margens, paddings e bordas de todos os elementos--*/
+/* --CONTENT: Margens, paddings e bordas de todos os elementos--*/
 *,
 *::before,
 *::after {
@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/* --Contet: Alinhamento de bloco e tamanho de fonte nativo-- */
+/* --CONTENT: Alinhamento de bloco e tamanho de fonte nativo-- */
 html,
 body {
   font-size: 16px;
@@ -16,13 +16,13 @@ body {
   line-height: 1.5;
 }
 
-/* --Contet: Marcadores de listas-- */
+/* --CONTENT: Marcadores de listas-- */
 ul,
 ol {
   list-style: none;
 }
 
-/* --Contet: Elementos de texto estruturais-- */
+/* --CONTENT: Elementos de texto estruturais-- */
 h1,
 h2,
 h3,
@@ -38,7 +38,7 @@ span {
   text-decoration: none;
 }
 
-/* --Contet: Mídias responsivas por padrão-- */
+/* --CONTENT: Mídias responsivas por padrão-- */
 img,
 picture,
 video,
@@ -48,7 +48,7 @@ svg {
   max-width: 100%;
 }
 
-/* --Contet: Elementos de formulário-- */
+/* --CONTENT: Elementos de formulário-- */
 button,
 input,
 select,
