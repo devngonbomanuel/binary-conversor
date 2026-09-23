@@ -14,3 +14,14 @@ label {
   color: var(--text-color);
   font-weight: 500;
 }
+
+/*--CONTENT: estilo provisório--*/
+.conversor-result {
+  padding: 15px 8px;
+  width: 258px;
+  color: (var(--text-color));
+  background-color: rebeccapurple;
+  border: 8px solid var(--text-color);
+  border-radius: 10px;
+  text-align: center;
+}
